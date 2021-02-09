@@ -10,7 +10,14 @@ grid-template-columns: 340px 30px 200px 190px 430px 10px 370px;
 grid-template-rows: 140px 360px 60px 220px 160px 60px;
 }
 
-.felsobal{
+.memo{
+  grid-column-start: 7;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.longbottom{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -19,8 +26,67 @@ grid-template-rows: 140px 360px 60px 220px 160px 60px;
 
 .floatjobb {
   float: right;
-  
+  clear: both;
 }
 
+.potter{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.he{
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
 
+.years{
+  grid-column-start: 7;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
 
+.true{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.ImadlakSeverus{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.ImádlakMinerva{
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+
+.story{
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+
+.cím{
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.python{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}

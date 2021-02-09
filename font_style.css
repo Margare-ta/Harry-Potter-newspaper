@@ -2,9 +2,17 @@
     font-family: 'M+ 1mn bold';
     line-height: 80%;
     float: right;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     font-variant: small-caps;
     font-size: 300%;
+    clear: both;
   }
+
+.memorial{
+  font-family: 'Wowsers Italic';
+}
 
 
       
@@ -26,4 +34,13 @@
   @font-face {
     font-family: 'M+ 1mn bold';
     src: url('Font/mplus-1mn-bold.ttf');
+  }
+
+  @font-face {
+    font-family: 'Wowsers Italic';
+    src: url('Font/Wowsers\ Italic.ttf');
+  }
+
+  .halfbloodprince{
+    
   }

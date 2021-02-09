@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(216, 209, 183);
+}
+
+.container{
+width: 1600px;
+height: 1000px;
+display: grid;
+grid-template-columns: 340px 30px 200px 190px 430px 10px 370px;
+grid-template-rows: 140px 360px 60px 220px 160px 60px;
+}
+
+.felsoball{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#neville{
+    font-family: 'Warownia Black Narrow';
+    font-size: large;
+    
+  }
+      
+  @font-face {
+    font-family: 'Magic School Two';
+    src: url('Font/MagicSchoolTwo.ttf');
+  }
+
+  @font-face {
+    font-family: 'Warownia Black Narrow';
+    src: url('Font/WarowniaBlkNrw.ttf');
+  }
+
+  @font-face {
+    font-family: 'New Comic Title';
+    src: url('Font/newcomictitle.ttf');
+  }
+

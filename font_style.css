@@ -1,8 +1,12 @@
 .neville{
-    font-family: 'Warownia Black Narrow';
-    font-size: large;
-    
+    font-family: 'M+ 1mn bold';
+    line-height: 80%;
+    float: right;
+    font-variant: small-caps;
+    font-size: 300%;
   }
+
+
       
   @font-face {
     font-family: 'Magic School Two';
@@ -17,4 +21,9 @@
   @font-face {
     font-family: 'New Comic Title';
     src: url('Font/newcomictitle.ttf');
+  }
+
+  @font-face {
+    font-family: 'M+ 1mn bold';
+    src: url('Font/mplus-1mn-bold.ttf');
   }

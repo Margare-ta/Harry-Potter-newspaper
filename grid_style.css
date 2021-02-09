@@ -17,24 +17,5 @@ grid-template-rows: 140px 360px 60px 220px 160px 60px;
     grid-row-end: 1;
 }
 
-#neville{
-    font-family: 'Warownia Black Narrow';
-    font-size: large;
-    
-  }
-      
-  @font-face {
-    font-family: 'Magic School Two';
-    src: url('Font/MagicSchoolTwo.ttf');
-  }
 
-  @font-face {
-    font-family: 'Warownia Black Narrow';
-    src: url('Font/WarowniaBlkNrw.ttf');
-  }
-
-  @font-face {
-    font-family: 'New Comic Title';
-    src: url('Font/newcomictitle.ttf');
-  }
 

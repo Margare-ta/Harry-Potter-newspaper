@@ -3,21 +3,25 @@ body{
 }
 
 .container{
-width: 1600px;
-height: 1000px;
+  border: 5px solid rgb(0, 0, 0);
+  width: 1515px;
+  height: 870px;
 display: grid;
-grid-template-columns: 340px 30px 200px 190px 430px 10px 370px;
-grid-template-rows: 140px 360px 60px 220px 160px 60px;
+grid-template-columns: 360px 25px 165px 180px 410px 25px 360px;
+grid-template-rows: 120px 340px 40px 190px 135px 45px;
+
 }
 
 .memo{
-  grid-column-start: 7;
-  grid-column-end: 7;
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 6;
+  grid-column-end: 8;
   grid-row-start: 1;
   grid-row-end: 1;
 }
 
 .longbottom{
+  border: 5px solid rgb(0, 0, 0);
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -25,17 +29,20 @@ grid-template-rows: 140px 360px 60px 220px 160px 60px;
 }
 
 .floatjobb {
+  border: 5px solid rgb(0, 0, 0);
   float: right;
   clear: both;
 }
 
 .potter{
+  border: 5px solid rgb(0, 0, 0);
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 2;
 }
 .he{
+  border: 5px solid rgb(0, 0, 0);
   grid-column-start: 4;
   grid-column-end: 7;
   grid-row-start: 2;
@@ -43,50 +50,67 @@ grid-template-rows: 140px 360px 60px 220px 160px 60px;
 }
 
 .years{
+  border: 5px solid rgb(0, 0, 0);
   grid-column-start: 7;
   grid-column-end: 7;
   grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.true{
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row-start: 3;
-  grid-row-end: 6;
-}
-
-.ImadlakSeverus{
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 3;
   grid-row-end: 4;
 }
 
-.ImádlakMinerva{
+.true{
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 7;
+}
+
+.ImadlakSeverus{
+  border: 5px solid rgb(0, 0, 0);
   grid-column-start: 5;
   grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.ImádlakMinerva{
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 5;
+  grid-column-end: 8;
   grid-row-start: 5;
   grid-row-end: 5;
 }
 
 .story{
+  border: 5px solid rgb(0, 0, 0);
   grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column-end: 8;
   grid-row-start: 6;
   grid-row-end: 6;
 }
 
 .cím{
+  border: 5px solid rgb(0, 0, 0);
   grid-column-start: 3;
-  grid-column-end: 6;
+  grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 1;
 }
 
 .python{
-  grid-column-start: 3;
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 3;
+  grid-row-end: 4;
+  height: max-content;
+  width: max-content;
+}
+
+.roxfort{
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 7;
+  grid-column-end: 7;
+  grid-row-start: 4;
   grid-row-end: 4;
 }

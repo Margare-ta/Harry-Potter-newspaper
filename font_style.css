@@ -1,8 +1,8 @@
 .neville{
     font-family: 'M+ 1mn bold';
     line-height: 40%;
-    margin-top: 20px;
-    margin-right: 92px;
+    margin-top: 28px;
+    margin-right: 95px;
     text-align: right;
     margin-bottom: 10px;
     font-variant: small-caps;
@@ -13,7 +13,7 @@
     font-family: 'M+ 1mn bold';
     line-height: 60%;
     margin-top: 0px;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-right: 0px;
     font-variant: small-caps;
     font-size: 240%;
@@ -34,8 +34,8 @@
 .floatjobb {
   float: right;
  clear: both;
- 
- margin-top: 20px;
+ width: 90px;
+ margin-top: 30px;
 }
 
 .suveg{
@@ -64,6 +64,48 @@
   color: rgb(216, 209, 183);
   font-size: 41.5px;
 }
+
+.harry{
+  font-family: Hastings Bold;
+  font-size: 235px;
+  font-variant: small-caps;
+  margin-top: 0px;
+  line-height: 35%;
+  margin-left: 7px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.harryh{
+  font-family: Hastings Bold;
+  font-size: 205px;
+  font-variant: small-caps;
+  margin-top: 0px;
+  line-height: 115%;
+  margin-left: 7px;
+}
+
+.harrykep{
+  float: right;
+  clear: both;
+}
+
+.defeats{
+  font-family: po;
+  font-size: 77px;
+  text-align: justify;
+  line-height: 76px;
+  margin-top: 0px;
+}
+
+.letter{
+  letter-spacing: 8px;
+}
+
+.be{
+  letter-spacing: 1px;
+}
+
 
 
 @font-face {
@@ -101,3 +143,13 @@
     src: url('Font/Superstar\ M54.ttf');
   }
  
+  @font-face {
+    font-family: 'Hastings Bold';
+    src: url('Font/Hastings\ Bold.ttf');
+  }
+
+  @font-face {
+    font-family: 'po';
+    src: url('Font/American\ Purpose\ STRIPE\ 1\ Normal.otf');
+  }
+      

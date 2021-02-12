@@ -1,20 +1,75 @@
 .neville{
     font-family: 'M+ 1mn bold';
-    line-height: 80%;
-    
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    line-height: 40%;
+    margin-top: 20px;
+    margin-right: 92px;
+    text-align: right;
+    margin-bottom: 10px;
     font-variant: small-caps;
-    font-size: 200%;
-    
+    font-size: 290%;
   }
 
+.ne{
+    font-family: 'M+ 1mn bold';
+    line-height: 60%;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 0px;
+    font-variant: small-caps;
+    font-size: 240%;
+}
+
 .memorial{
-  font-family: 'Wowsers Italic';
+  font-family: 'Talpas';
+  font-size: 240%;
+  line-height: 110%;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.cimkep{
+  height: 131px;
+}
+
+.floatjobb {
+  float: right;
+ clear: both;
+ 
+ margin-top: 20px;
+}
+
+.suveg{
+  float: left;
+  clear: both;
+  width: 80px;
+  margin-top: 0px;
+}
+
+.minerva{
+  font-family: 'New Comic Title';
+  float: right;
+  clear: both;
+}
+
+.named{
+  font-family: 'Warownia Black Narrow';
+}
+
+.head{
+  font-family: 'Magic School Two';
+}
+
+.sp{
+  background-color: rgb(0, 0, 0);
+  color: rgb(216, 209, 183);
+  font-size: 41.5px;
 }
 
 
+@font-face {
+  font-family: 'Talpas';
+  src: url('Font/StalinistOne-Regular.ttf');
+}
       
   @font-face {
     font-family: 'Magic School Two';
@@ -41,6 +96,8 @@
     src: url('Font/Wowsers\ Italic.ttf');
   }
 
-  .cimkep{
-    megoldás a kis szünetre?
+  @font-face {
+    font-family: 'Superstar M54';
+    src: url('Font/Superstar\ M54.ttf');
   }
+ 

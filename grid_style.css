@@ -4,8 +4,8 @@ body{
 
 .container{
   border: 5px solid rgb(0, 0, 0);
-  width: 1430px;
-  height: 885px;
+  width: 1390px;
+  height: 845px;
 display: grid;
 grid-template-columns: 340px 25px 105px 240px 315px 25px 340px;
 grid-template-rows: 135px 300px 40px 190px 135px 45px;

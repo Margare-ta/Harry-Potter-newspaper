@@ -106,11 +106,58 @@
   letter-spacing: 1px;
 }
 
+.meme{
+  letter-spacing: 4px;
+}
+
+.page{
+  float: right;
+  clear: both;
+  font-family: anton;
+  font-variant: small-caps;
+  letter-spacing: -4px;
+  font-size: 70px;
+  margin-top: 0px;
+  margin-left: 1px;
+  margin-bottom: 0%;
+  margin-right: 30px;
+  line-height: 67px;
+}
+
+.for{
+  margin-left: 70px;
+  float: right;
+  clear: both;
+  margin-top: 90px;
+}
+
+.fff{
+  float: left;
+  clear: both;
+}
+
+.store{
+  font-family: szls;
+  font-variant: small-caps;
+  font-size: 280%;
+  margin-top: 0px;
+  line-height: 0%;
+}
 
 
 @font-face {
   font-family: 'Talpas';
   src: url('Font/StalinistOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'szls';
+  src: url('Font/RussoOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'anton';
+  src: url('Font/Anton-Regular.ttf');
 }
       
   @font-face {

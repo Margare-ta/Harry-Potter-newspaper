@@ -3,7 +3,6 @@ body{
 }
 
 .container{
-  border: 5px solid rgb(0, 0, 0);
   width: 1390px;
   height: 845px;
 display: grid;
@@ -13,7 +12,7 @@ grid-template-rows: 135px 300px 40px 190px 135px 45px;
 }
 
 .memo{
-  border: 5px solid rgb(0, 0, 0);
+ 
   grid-column-start: 6;
   grid-column-end: 8;
   grid-row-start: 1;
@@ -21,7 +20,7 @@ grid-template-rows: 135px 300px 40px 190px 135px 45px;
 }
 
 .longbottom{
-  border: 5px solid rgb(0, 0, 0);
+  
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -36,7 +35,7 @@ grid-template-rows: 135px 300px 40px 190px 135px 45px;
 
 
 .potter{
-  border: 5px solid rgb(0, 0, 0);
+  
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 2;
@@ -45,7 +44,7 @@ grid-template-rows: 135px 300px 40px 190px 135px 45px;
   color: rgb(216, 209, 183);
 }
 .he{
-  border: 5px solid rgb(0, 0, 0);
+  
   grid-column-start: 4;
   grid-column-end: 7;
   grid-row-start: 2;
@@ -53,7 +52,7 @@ grid-template-rows: 135px 300px 40px 190px 135px 45px;
 }
 
 .years{
-  border: 5px solid rgb(0, 0, 0);
+  
   grid-column-start: 7;
   grid-column-end: 7;
   grid-row-start: 2;
@@ -61,7 +60,7 @@ grid-template-rows: 135px 300px 40px 190px 135px 45px;
 }
 
 .true{
-  border: 5px solid rgb(0, 0, 0);
+  
   grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 3;
@@ -69,15 +68,16 @@ grid-template-rows: 135px 300px 40px 190px 135px 45px;
 }
 
 .ImadlakSeverus{
-  border: 5px solid rgb(0, 0, 0);
+  
   grid-column-start: 5;
   grid-column-end: 7;
   grid-row-start: 3;
   grid-row-end: 5;
+ 
 }
 
 .ImádlakMinerva{
-  border: 5px solid rgb(0, 0, 0);
+ 
   grid-column-start: 5;
   grid-column-end: 8;
   grid-row-start: 5;
@@ -85,7 +85,6 @@ grid-template-rows: 135px 300px 40px 190px 135px 45px;
 }
 
 .story{
-  border: 5px solid rgb(0, 0, 0);
   grid-column-start: 2;
   grid-column-end: 8;
   grid-row-start: 6;
@@ -93,7 +92,7 @@ grid-template-rows: 135px 300px 40px 190px 135px 45px;
 }
 
 .cím{
-  border: 5px solid rgb(0, 0, 0);
+  
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 1;
@@ -101,7 +100,7 @@ grid-template-rows: 135px 300px 40px 190px 135px 45px;
 }
 
 .python{
-  border: 5px solid rgb(0, 0, 0);
+  
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 3;
@@ -111,7 +110,7 @@ grid-template-rows: 135px 300px 40px 190px 135px 45px;
 }
 
 .roxfort{
-  border: 5px solid rgb(0, 0, 0);
+  
   grid-column-start: 7;
   grid-column-end: 7;
   grid-row-start: 4;
@@ -127,3 +126,27 @@ grid-template-rows: 135px 300px 40px 190px 135px 45px;
   grid-row-start: 2;
 }
 
+.divecske{
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 5;
+  grid-row-end: 5;
+  margin-left: 185px;
+}
+
+.stoory{
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 6;
+  grid-row-end: 6;
+  margin-left: 738px;
+}
+
+.ujjalso{
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 6;
+  grid-row-end: 6;
+  margin-left: 668px;
+  
+}

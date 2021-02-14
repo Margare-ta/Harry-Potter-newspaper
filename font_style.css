@@ -50,16 +50,25 @@
 
 .minerva{
   font-family: 'New Comic Title';
-  float: right;
-  clear: both;
+  font-size: 50px;
+  letter-spacing: 4.5px;
+}
+
+.komplex{
+  line-height: 160%;
+  font-variant: small-caps;
 }
 
 .named{
-  font-family: 'Warownia Black Narrow';
+  font-family: 'Magic School Two';
+  font-size: 50px;
+  letter-spacing: 1px;
 }
 
 .head{
-  font-family: 'Magic School Two';
+  font-family: 'Warownia Black Narrow';
+  font-size: 50px;
+  letter-spacing: 11px;
 }
 
 .sp{
@@ -150,7 +159,8 @@
 }
 
 .roxy{
-  height: 180px;
+  height: 190px;
+  margin-left: 5px;
 }
 
 .ujj{
@@ -212,6 +222,50 @@
   font-weight: bold;
 }
 
+.Snape{
+  font-size: 45px;
+  letter-spacing: 1.5px;
+ 
+}
+
+.rem{
+  font-size: 55px;
+}
+
+.re{
+  font-family: 'Talpas';
+  font-size: 24px;
+  
+}
+
+.severus{
+  margin-top: 20px;
+  font-weight: bold;
+  font-variant: small-caps;
+  line-height: 120%;
+  border-top: 3px solid rgb(0, 0, 0);
+}
+
+.wbet{
+  float: left;
+  clear: both;
+}
+
+.szoveg{
+  text-align: justify;
+}
+
+.full{
+  font-family: 'New Comic Title';
+  font-size: 30px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+  letter-spacing: 1px;
+}
+
+.naaa{
+  width: 70px;
+}
 
 @font-face {
   font-family: 'Talpas';

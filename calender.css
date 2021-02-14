@@ -1,0 +1,43 @@
+
+ 
+ 
+ .calender {
+    border: 1px solid darkorchid;
+ }
+ 
+
+ .days {
+    margin: 0;
+    padding: 10px 0;
+    background-color: rgb(169, 210, 248);
+    border: 1px solid rgba(0, 0, 139, 0.514);
+ }
+ .days li {
+    font-weight: bold;
+    display: inline-block;
+    width: 13.6%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+ }
+ .daysNumber {
+    padding: 10px 0;
+    background: rgb(235, 255, 182);
+    margin: 0;
+    font-weight: bold;
+ }
+ .daysNumber li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+ }
+ .daysNumber li  {
+    padding: 5px;
+    background: #17003b;
+    font-weight: bolder;
+    border-radius: 50%;
+    color: rgb(229, 255, 0) !important;
+ }

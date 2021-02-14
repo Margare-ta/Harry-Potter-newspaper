@@ -7,16 +7,18 @@
     margin-bottom: 10px;
     font-variant: small-caps;
     font-size: 290%;
+    letter-spacing: 6.3px;
   }
 
 .ne{
     font-family: 'M+ 1mn bold';
     line-height: 60%;
     margin-top: 0px;
-    margin-left: 15px;
+    
     margin-right: 0px;
     font-variant: small-caps;
     font-size: 240%;
+    letter-spacing: 0.8px;
 }
 
 .memorial{
@@ -36,6 +38,7 @@
  clear: both;
  width: 90px;
  margin-top: 30px;
+ margin-right: 5px;
 }
 
 .suveg{
@@ -116,38 +119,108 @@
   font-family: anton;
   font-variant: small-caps;
   letter-spacing: -4px;
-  font-size: 70px;
+  font-size: 55px;
   margin-top: 0px;
   margin-left: 1px;
   margin-bottom: 0%;
-  margin-right: 30px;
+  margin-right: 90px;
   line-height: 67px;
 }
 
 .for{
-  margin-left: 70px;
+  margin-left: 60px;
   float: right;
   clear: both;
-  margin-top: 90px;
+  margin-top: 75px;
+  text-align: justify;
+  margin-right: 90px;
+  margin-bottom: 0%;
 }
 
 .fff{
-  float: left;
-  clear: both;
+  width: 50px;
 }
 
 .store{
-  font-family: szls;
+  font-family: 'Talpas';
   font-variant: small-caps;
-  font-size: 280%;
+  font-size: 145%;
   margin-top: 0px;
-  line-height: 0%;
+  line-height: 10px;
+}
+
+.roxy{
+  height: 180px;
+}
+
+.ujj{
+  width: 120px;
+  margin-top: 5px;
+}
+
+#must{
+  margin-left: 10px;
+  margin-top: 0%;
+  margin-right: 90px;
+  text-align: justify;
+}
+
+.thenight{
+  font-family: 'M+ 1mn bold';
+  font-size: 240%;
+  line-height: 55%;
+}
+
+.dark{
+  font-family: Hastings Bold;
+  font-size: 45px;
+  font-variant: small-caps;
+  margin-top: 0px;
+  line-height: 50%;
+  
+  letter-spacing: 4.5px;
+}
+
+.st{
+  text-align: justify;
+  margin-top: 0%;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.december{
+  border-top: 3px solid rgb(0, 0, 0);
+  font-family: 'dec';
+  font-size: 60px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 7px;
+  margin-right: 7px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+#szam{
+  font-size: 40px;
+  font-family: 'dec';
+  margin-top: 20px;
+  margin-bottom: 0%;
+  float: right;
+  clear: both;
+  margin-right: 7px;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 
 @font-face {
   font-family: 'Talpas';
   src: url('Font/StalinistOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'dec';
+  src: url('Font/Vipashriftina150.ttf');
 }
 
 @font-face {
